@@ -45,6 +45,8 @@ export default function App() {
           <QuizRoutes />
         </Route>
       </Switch>
+
+      <footer> Codecademy project by Karnjana </footer>
     </Router>
   );
 }

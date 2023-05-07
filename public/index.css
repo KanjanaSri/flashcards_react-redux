@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background: #b736ff;
+  background: #F9D949;
   display: flex;
   padding: 24px 36px;
 }
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav a {
-  color: white;
+  color: #000;
   font-size: 16px;
   text-decoration: none;
 }
@@ -72,6 +72,7 @@ button,
 
 section {
   padding: 20px 16px;
+  padding-bottom: 50px;
 }
 
 input,
@@ -209,10 +210,21 @@ li:not(:last-child) {
 }
 
 .card {
-  background: #b736ff;
+  background: #F9D949;
   border-radius: 4px;
   border: none;
-  color: white;
+  color: #000;
   padding: 73px 44px;
   width: 100%;
+}
+
+footer {
+  position: fixed;
+  font-size: 13px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  color: #000;
+  background: #F9D949
 }
